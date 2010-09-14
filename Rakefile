@@ -8,12 +8,12 @@ gem 'nokogiri'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "sitemap_generator"
+    gem.name = "apsoto-sitemap_generator"
     gem.summary = %Q{Easily generate enterprise class Sitemaps for your Rails site using a familiar Rails Routes-like DSL}
     gem.description = %Q{SitemapGenerator is a Rails gem that makes it easy to generate enterprise-class Sitemaps readable by all search engines.  Generated Sitemaps adhere to the Sitemap protocol specification.  When you generate new Sitemaps, SitemapGenerator can automatically ping the major search engines (including Google, Yahoo and Bing) to notify them.  SitemapGenerator includes rake tasks to easily manage your sitemaps.}
-    gem.email = "kjvarga@gmail.com"
-    gem.homepage = "http://github.com/kjvarga/sitemap_generator"
-    gem.authors = ["Karl Varga", "Adam Salter"]
+    gem.email = "apsoto@gmail.com"
+    gem.homepage = "http://github.com/apsoto/sitemap_generator"
+    gem.authors = ["Alex Soto", "Karl Varga", "Adam Salter"]
     gem.files =  FileList["[A-Z]*", "{bin,lib,rails,templates,tasks}/**/*"]
     gem.test_files = []
     gem.add_development_dependency "rspec"

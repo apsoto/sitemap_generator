@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{apsoto-sitemap_generator}
-  s.version = "1.0.1.dev"
+  s.version = "1.1.0.dev"
 
   s.required_rubygems_version = Gem::Requirement.new("> 1.3.1") if s.respond_to? :required_rubygems_version=
   s.authors = ["Alex Soto", "Karl Varga", "Adam Salter"]
-  s.date = %q{2010-09-13}
+  s.date = %q{2010-09-20}
   s.description = %q{SitemapGenerator is a Rails gem that makes it easy to generate enterprise-class Sitemaps readable by all search engines.  Generated Sitemaps adhere to the Sitemap protocol specification.  When you generate new Sitemaps, SitemapGenerator can automatically ping the major search engines (including Google, Yahoo and Bing) to notify them.  SitemapGenerator includes rake tasks to easily manage your sitemaps.}
   s.email = %q{apsoto@gmail.com}
   s.extra_rdoc_files = [
